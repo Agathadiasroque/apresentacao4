@@ -111,34 +111,51 @@ Escores médios **$\ge 75$** indicam percepção positiva. Valores menores indic
 | **GERAL** | **69,54** | 70,78 | 14,98 | Negativa |
 
 
-## **Comparações de Médias (Teste t e ANOVA)**
+## **Comparações de Médias (Teste t)**
 
 Os resultados dos testes de hipótese mostraram onde as diferenças de percepção são significativas:
 
-**Diferença por Sexo (Teste t):**
+**Diferença por Sexo:**
 Homens apresentaram médias significativamente maiores que mulheres nos domínios:
 
+:::: columns
+
+::: {.column width="50%"}
+::: box-orange
 - Trabalho em Equipe ($p=0,01$)
   - Homem: média de 78,81
   - Mulher: média de 70,30
+
+:::
+:::
+
+
+::: {.column width="50%"}
+::: box-orange
 
 - Clima de Segurança ($p<0,001$)
   - Homem: média de 75,53
   - Mulher: média de 69,08
 
-## **Comparações de Médias (Teste t e ANOVA)**
 
-**Categoria Profissional (ANOVA):**
-Houve diferença significativa entre as médias gerais dos grupos Clima de trabalho, Satisfação no trabalho e Percepção do Estresse ($p=0,003$): 
+:::
+:::
+::::
 
-- **Médicos:** Apresentaram a melhor percepção (Média 82,97). Onde todos os domínios foram acima de 75.
-- **Outros:** Percepção negativa (Média 69,08). Onde Satisfação no trabalho (82,13) foi o único acima de 75. 
-- **Enfermagem:** Percepção inferior (Média 67,34). Onde Satisfação no Trabalho (77,84) e Percepção do estresse (78,17) foram as únicas acima de 75.
-
+<br>
 
 ::: box-blue
 **Escolaridade:** Profissionais de nível superior reconhecem melhor os fatores estressantes do que os de nível médio ($p=0,001$).
 :::
+
+
+
+## **Comparações de Categoria Profissional (ANOVA)**
+
+<br>
+
+![](tabela.png){style="width:100%;"}
+
 
 # **CONCLUSÃO** {data-background-image="Capa_4.1.png" style="text-align:center"}
 
