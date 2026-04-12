@@ -1,0 +1,322 @@
+---
+title: "**PRÁTICA ESTATÍSTICA II**"
+subtitle: "**ATIVIDADE AVALIATIVA 4**"
+author: "Agatha Dias Roque (<Agathadias@id.uff.br>) <br> Vitor Eduardo Bezerra Ferreira (<ferreiravitor@id.uff.br>)"
+date: today
+date-format: "13/04/2026"
+institute: "Universidade Federal Fluminense"
+format:
+  revealjs:
+    css: custom.css
+    slide-number: true
+    incremental: false
+    transition: slide
+    background-transition: fade
+    width: 1280
+    height: 720
+    margin: 0.07
+    auto-stretch: false
+    title-slide-attributes:
+      data-background-image: "Capa_4.png"
+      data-background-size: cover
+---
+
+
+# **INTRODUÇÃO** {data-background-image="Capa_4.1.png" style="text-align:center"}
+
+## **O Estudo em Análise**
+
+**Artigo:**
+Clima de segurança do paciente em um hospital de ensino
+
+**Autores:**<br>
+Felipe Henrique de Lima Magalhães<br>
+Isabelle Christinne de Almeida Pereira<br>
+Raíssa Bianca Luiz<br>
+Maria Helena Barbosa<br>
+Maria Beatriz Guimarães Ferreira<br>
+
+
+<br>
+
+::: box-purple
+**Motivação:**
+A segurança do paciente é um dos pilares da qualidade assistencial. Compreender a percepção dos profissionais permite identificar falhas na gestão e mitigar eventos adversos que aumentam a morbimortalidade e custos hospitalares.
+:::
+
+## **Objetivos e Amostra**
+
+::: box-blue
+**Objetivo:**
+Avaliar a percepção do clima de segurança do paciente e investigar a associação entre os escores e as variáveis sociodemográficas e profissionais.
+:::
+
+**Descrição da Amostra:**
+
+- **Local:** Hospital filantrópico de ensino (Minas Gerais).
+- **Participantes:** 198 profissionais de saúde.
+- **Perfil:** 83,8% mulheres; 72,7% equipe de enfermagem; Idade média de 35 anos.
+
+# **METODOLOGIA ESTATÍSTICA** {data-background-image="Capa.png" style="text-align:center"}
+
+## **Variáveis e Instrumento**
+
+O estudo utilizou o **Questionário de Atitudes de Segurança (SAQ)**, que gera escores de 0 a 100.
+
+::: {.panel-tabset}
+
+### Variáveis Analisadas
+- **Resposta (Quantitativa):** Escores dos domínios de segurança.
+- **Exposição (Qualitativa):** Sexo, Categoria Profissional e Nível de Instrução.
+
+### Domínios do SAQ
+1. Clima de Trabalho em Equipe
+2. Clima de Segurança
+3. Satisfação no Trabalho
+4. Percepção do Estresse
+5. Percepção da Gerência
+6. Condições de Trabalho
+
+### Critério de Decisão
+Escores **$\ge 75$** indicam percepção positiva. Valores menores indicam percepção negativa.
+:::
+
+## **Testes de Hipóteses Aplicados**
+
+::: box-green
+- **Normalidade:** Requisito para testes paramétricos (mencionado como premissa para o uso de testes $t$ e ANOVA).
+- **Teste t de Student:** Utilizado para comparar as médias de duas populações independentes (ex: Sexo Masculino vs. Feminino; Nível Médio vs. Superior).
+- **ANOVA (Análise de Variância):** Utilizada para comparar as médias de mais de duas populações (ex: Enfermagem vs. Médicos vs. Outros).
+:::
+
+# **RESULTADOS** {data-background-image="Capa.png" style="text-align:center"}
+
+## **Análise Descritiva (Escores)** {.scrollable}
+
+| Domínio | Média | Mediana | DP | Avaliação |
+|:---|:---:|:---:|:---:|:---:|
+| **Satisfação no Trabalho** | **81,98** | 90,00 | 19,62 | Positiva |
+| Clima de Trabalho em Equipe | 71,71 | 75,00 | 18,25 | Negativa |
+| Condições de Trabalho | 71,14 | 75,00 | 26,50 | Negativa |
+| Clima de Segurança | 70,12 | 71,42 | 18,32 | Negativa |
+| Percepção do Estresse | 68,03 | 75,00 | 25,32 | Negativa |
+| **Percepção da Gerência** | **62,15** | 63,63 | 20,95 | **Pior Escore** |
+| **GERAL** | **69,54** | 70,78 | 14,98 | Negativa |
+
+<br>
+
+::: box-orange
+A percepção geral do clima de segurança foi **negativa** (Média = 69,54).
+:::
+
+
+## **Comparações de Médias (Teste t e ANOVA)**
+
+Os resultados dos testes de hipótese mostraram onde as diferenças de percepção são significativas:
+
+**Diferença por Sexo (Teste t):**
+Homens apresentaram médias significativamente maiores que mulheres nos domínios:
+
+- Trabalho em Equipe ($p=0,01$)
+- Clima de Segurança ($p<0,001$)
+
+## **Comparações de Médias (Teste t e ANOVA)**
+
+**Categoria Profissional (ANOVA):**
+Houve diferença significativa entre as médias dos grupos ($p=0,003$):
+
+- **Médicos:** Apresentaram a melhor percepção (Média 82,97).
+- **Enfermagem:** Percepção inferior (Média 67,34).
+
+::: box-blue
+**Escolaridade:** Profissionais de nível superior reconhecem melhor os fatores estressantes do que os de nível médio ($p=0,001$).
+:::
+
+# **CONCLUSÃO** {data-background-image="Capa.png" style="text-align:center"}
+
+## **Principais Achados**
+
+- A percepção do clima de segurança é **insuficiente** na maior parte dos domínios.
+- A **Satisfação no Trabalho** é o único ponto forte, indicando que o profissional gosta do que faz, mas não confia nos processos de segurança.
+- A **Gerência** é o ponto de maior fragilidade, exigindo intervenções na comunicação entre líderes e liderados.
+
+## **Contribuição Social e Prática**
+
+**Qual a importância desses testes para a sociedade?**
+
+- **Segurança do Paciente:** Identificar que enfermeiros (que estão na linha de frente) possuem percepção de segurança menor que médicos alerta para o risco de falhas assistenciais.
+- **Gestão Pública/Privada:** Os testes de hipótese (ANOVA e Teste t) provam estatisticamente que o treinamento não deve ser uniforme, mas focado nas categorias com menores escores.
+- **Resultado:** Redução de danos, menor tempo de internação e otimização de recursos hospitalares.
+
+
+# **PRIMEIRO CAPÍTULO**{data-background-image="Capa.png" style="text-align:center"}
+
+## **PRIMEIRA SEÇÃO**
+
+## **BLOCOS**
+
+::: box-blue
+Este é um bloco azul.
+:::
+
+::: box-green
+Este é um bloco verde.
+:::
+
+::: box-purple
+**TÍTULO OPCIONAL**
+
+Este é um bloco roxo.
+:::
+
+::: box-orange
+Este é um bloco laranja.
+:::
+
+## **LISTA NÃO ORDENADA**
+
+::: box-blue
+- Estatística
+- Matemática
+- Programação
+:::
+
+## **LISTA NÃO ORDENADA ANINHADA**
+- Frutas
+    - Maçã
+    - Banana
+- Verduras
+    - Alface
+    - Cenoura
+    
+## LISTA ORDENADA
+
+:::box-orange
+1. Coletar dados
+2. Organizar informações
+3. Aplicar análise estatística
+:::
+
+## **LISTAS ORDENADAS ANINHADAS**
+
+1. Preparação
+    1. Coletar materiais
+    2. Definir objetivos
+2. Execução
+
+## **LISTA DE TAREFAS**
+
+::: box-purple
+- [x] Comprar leite
+- [ ] Estudar Quarto
+- [ ] Enviar relatório
+:::
+
+## **LINKS**
+Confira a documentação oficial do [Quarto](https://quarto.org).
+
+## **EQUAÇÕES**
+A reta é descrita por $y = mx + b$.
+
+Segue uma equação de destaque:
+$$
+y = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+Mais exemplos:
+
+* Frações: $\frac{a}{b}$
+* Raiz quadrada: $\sqrt{x}$
+* Expoentes: $x^2$
+* Índices: $x_i$
+* Somatórios:  $\sum_{i=1}^{n} x_i$
+
+## **IMAGENS**
+![](Rstudio.png){style="width:50%;"}
+
+## **IMAGENS COM EDIÇÕES**
+![](Rstudio.png){fig-align="center" width=100%}
+
+## **TABELAS**
+| Disciplina     | Professor        | Horário   |
+|----------------|-----------------|-----------|
+| Estatística    | Prof. Guilherme | 08h-10h   |
+| Matemática     | Prof. Ana       | 10h-12h   |
+| Programação    | Prof. João      | 14h-16h   |
+
+| Produto | Preço | Quantidade |
+|:--------|------:|:----------:|
+| Lápis   |  1.50 |     10     |
+| Caderno | 12.00 |     5      |
+| Mochila | 75.00 |     1      |
+
+## **SLIDE COM ABAS**
+
+::: {.panel-tabset}
+
+### Aba 1
+
+Conteúdo da primeira aba.
+
+### Aba 2
+
+Conteúdo da segunda aba.
+
+### Aba 3
+
+Conteúdo da terceira aba.
+
+:::
+
+## Exemplo de colunas
+
+:::: columns
+
+::: {.column width="60%"}
+- Esta é a primeira coluna
+- Ela ocupa **60% da largura**
+:::
+
+::: {.column width="40%"}
+- Esta é a segunda coluna
+- Ela ocupa **40% da largura**
+:::
+
+::::
+
+## *SCROLLING* {.scrollable}
+
+Este slide demonstra o uso da classe **scrollable**, que permite adicionar **rolagem vertical** quando o conteúdo é muito grande.
+
+Este é um exemplo de texto genérico utilizado apenas para preencher o slide e demonstrar como o conteúdo pode ultrapassar a altura da tela.
+
+- Item 1
+- Item 2
+- Item 3
+- Item 4
+- Item 5
+
+Quando há muito conteúdo, o slide normalmente ficaria visualmente sobrecarregado. Com o uso de `scrollable`, é possível manter tudo em um único slide e permitir que o usuário role o conteúdo.
+
+- Item A
+- Item B
+- Item C
+- Item D
+- Item E
+
+## **CRIANDO UMA CHUNK**
+```{r}
+x <- 1:10
+hist(x)
+```
+
+## CHUNK COM NOME
+```{r boxplot}
+x <- 1:10
+boxplot(x)
+```
+
+## **CHUNK PERSONALIZADA**
+```{r, fig.width=10, fig.height=4}
+hist(rnorm(100), col="skyblue", main="Histograma")
+```
