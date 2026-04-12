@@ -57,7 +57,7 @@ Avaliar a percepção do clima de segurança do paciente e investigar a associa�
 - **Participantes:** 198 profissionais de saúde.
 - **Perfil:** 83,8% mulheres; 72,7% equipe de enfermagem; Idade média de 35 anos.
 
-# **METODOLOGIA ESTATÍSTICA** {data-background-image="Capa.png" style="text-align:center"}
+# **METODOLOGIA ESTATÍSTICA** {data-background-image="Capa_4.1.png" style="text-align:center"}
 
 ## **Variáveis e Instrumento**
 
