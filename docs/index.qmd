@@ -54,8 +54,11 @@ Avaliar a percepção do clima de segurança do paciente e investigar a associa�
 **Descrição da Amostra:**
 
 - **Local:** Hospital filantrópico de ensino (Minas Gerais).
-- **Participantes:** 198 profissionais de saúde.
-- **Perfil:** 83,8% mulheres; 72,7% equipe de enfermagem; Idade média de 35 anos.
+- **Participantes:** 198* profissionais de saúde.
+- **Perfil:** 83,8% mulheres; Idade média de 35 anos (mínimo de 20 anos e máximo de 57 anos).
+- **Perfil dos profissionais**: Enfermagem (72,7%), Médicos (6,1%) e outros [assistente social, biomédico, farmacêutico...] (21,1%)
+
+*O teste de amostragem realizado apontou uma quantidade de participantes mínimos de 206, porém 8 recusaram em participar do estudo.
 
 # **METODOLOGIA ESTATÍSTICA** {data-background-image="Capa_4.1.png" style="text-align:center"}
 
@@ -78,10 +81,14 @@ O estudo utilizou o **Questionário de Atitudes de Segurança (SAQ)**, que gera 
 6. Condições de Trabalho
 
 ### Critério de Decisão
-Escores **$\ge 75$** indicam percepção positiva. Valores menores indicam percepção negativa.
+Escores médios **$\ge 75$** indicam percepção positiva. Valores menores indicam percepção negativa.
 :::
 
 ## **Testes de Hipóteses Aplicados**
+
+<br>
+
+<br>
 
 ::: box-green
 - **Normalidade:** Requisito para testes paramétricos (mencionado como premissa para o uso de testes $t$ e ANOVA).
@@ -91,9 +98,9 @@ Escores **$\ge 75$** indicam percepção positiva. Valores menores indicam perce
 
 # **RESULTADOS** {data-background-image="Capa_4.1.png" style="text-align:center"}
 
-## **Análise Descritiva (Escores)** {.scrollable}
+## {.scrollable}
 
-| Domínio | Média | Mediana | DP | Avaliação |
+| Domínio | Média | Mediana | Desvio Padrão | Avaliação |
 |:---|:---:|:---:|:---:|:---:|
 | **Satisfação no Trabalho** | **81,98** | 90,00 | 19,62 | Positiva |
 | Clima de Trabalho em Equipe | 71,71 | 75,00 | 18,25 | Negativa |
@@ -102,12 +109,6 @@ Escores **$\ge 75$** indicam percepção positiva. Valores menores indicam perce
 | Percepção do Estresse | 68,03 | 75,00 | 25,32 | Negativa |
 | **Percepção da Gerência** | **62,15** | 63,63 | 20,95 | **Pior Escore** |
 | **GERAL** | **69,54** | 70,78 | 14,98 | Negativa |
-
-<br>
-
-::: box-orange
-A percepção geral do clima de segurança foi **negativa** (Média = 69,54).
-:::
 
 
 ## **Comparações de Médias (Teste t e ANOVA)**
@@ -118,15 +119,22 @@ Os resultados dos testes de hipótese mostraram onde as diferenças de percepç�
 Homens apresentaram médias significativamente maiores que mulheres nos domínios:
 
 - Trabalho em Equipe ($p=0,01$)
+  - Homem: média de 78,81
+  - Mulher: média de 70,30
+
 - Clima de Segurança ($p<0,001$)
+  - Homem: média de 75,53
+  - Mulher: média de 69,08
 
 ## **Comparações de Médias (Teste t e ANOVA)**
 
 **Categoria Profissional (ANOVA):**
-Houve diferença significativa entre as médias dos grupos ($p=0,003$):
+Houve diferença significativa entre as médias gerais dos grupos Clima de trabalho, Satisfação no trabalho e Percepção do Estresse ($p=0,003$): 
 
-- **Médicos:** Apresentaram a melhor percepção (Média 82,97).
-- **Enfermagem:** Percepção inferior (Média 67,34).
+- **Médicos:** Apresentaram a melhor percepção (Média 82,97). Onde todos os domínios foram acima de 75.
+- **Outros:** Percepção negativa (Média 69,08). Onde Satisfação no trabalho (82,13) foi o único acima de 75. 
+- **Enfermagem:** Percepção inferior (Média 67,34). Onde Satisfação no Trabalho (77,84) e Percepção do estresse (78,17) foram as únicas acima de 75.
+
 
 ::: box-blue
 **Escolaridade:** Profissionais de nível superior reconhecem melhor os fatores estressantes do que os de nível médio ($p=0,001$).
